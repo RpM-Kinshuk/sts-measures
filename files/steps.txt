@@ -1,0 +1,12 @@
+1. Word2Vec, fastText, SentenceTransformer, etc. We will prune this list and select the ones that are different and available.
+
+2. DONE
+
+3. DONE
+
+4. Corpus in progress 
+
+I think the following resources can be useful:
+    1. Evolution of Semantic Similarity—A Survey https://dl.acm.org/doi/abs/10.1145/3440755
+
+    2. A survey on the techniques, applications, and performance of short text semantic similarity https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5971

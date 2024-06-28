@@ -1,0 +1,85 @@
+Day 1: 2024-06-14 (Friday)
++ Looked for the 17 SDGs and recorded their definitions.
++ Task 2: Done
+
++ Wrote search script in Python to find documents from Scopus.
+
++ Successfully recorded 5000 results for the corpus construct
+
+- 5000 results only
+- Hit with limit on number of results that can be retrieved over a single query in Scopus API.
+
++ Modified the script to execute multiple queries over period of time.
++ Modified the script to avoid rate limiting by Scopus API.
+-> Script under execution (Results from 2001 onwards are being recorded)
+- Colab disconnected due to time limit errors
++ Started running the script again on reduced results from 2010 onwards to avoid run time limits on Colab.
+
+- Dateformat of the queries didn't match the Scopus API requirements.
++ Modified the script to use `pubyear` instead of `date`.
+
++ Wrote short script for cleaning the results (seems redundant now)
+
++ Wrote another script to extract abstracts from the results.
+-> Script under execution (Results from the reduced set of 5000 results are being recorded)
+- The script finished but there was a change in API
++ Modified the script with a newly added function to get the correct abstracts using DOI of texts.
++ Verified the stability of script by running it on a small set of results.
+
++ Obtained ~3500 abstracts from the Scopus API.
+- 1500 abstracts could not be extracted.
++ Finished building a small dataset of abstracts for the corpus and testing.
+
+
+
+Day 2: 2024-06-15 (Saturday)
++ Obtained 70,000 result records from Scopus API (2024-2025).
++ Started executing the script to extract abstracts for each record from the Scopus API for the complete corpus.
+
+
+
+Day 3: 2024-06-16 (Sunday)
++ Obtained 118,779 records from Scopus API (2000-2025).
+
+
+
+Day 4: 2024-06-17 (Monday)
++ Filtered 55,062 records with abstracts from the corpus of 120,248 records.
++ Task 4: Done
+
+- Data size problems
+
+++ Adding Conference papers manually
++ scopus_0: 2010-2012 19k
++ scopus_1: 2013-2015 19k
++ scopus_2: 2016-2017 15k
++ scopus_3: 2018-2019 19k
++ scopus_4: 2020-2020 11k
++ scopus_5: 2021-2021 12k
++ scopus_6: 2022-2023 18k
++ scopus_7: 2024-2025 3k
+
++ Combined all the data into a single file.
++ Checked for missing abstracts using a script.
+
+
+
+Day 5: 2024-06-18 (Tuesday)
++ Packed data and notebook in folder
++ Compiled a list of embedding techniques with notes
+
+
+Day 6: 2024-06-19 (Wednesday)
++ Implemented Universal Sentence Encoder
++ Implemented FastText
++ Implemented GloVe
++ Implemented ELMo
++ Implemented Sentence Transformers
+
+Day 7: 2024-06-20 (Thursday)
++ Connected appropriate FastText model through Drive
++ Looked through semantic similarity measures
++ Implemented Cosine Similarity
++ Ran test experiments on four techniques for demonstration
++ Cleaned up notebook
++ Did some knowledge gathering on the topic

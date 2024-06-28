@@ -1,0 +1,31 @@
+Plain Summarizers:
+
+https://huggingface.co/facebook/bart-large-cnn
+406M parameters
+
+https://huggingface.co/Falconsai/text_summarization
+60.5M parameters
+
+https://huggingface.co/sshleifer/distilbart-cnn-12-6
+134M parameters
+
+https://huggingface.co/google/pegasus-xsum
+~568M parameters
+
+https://huggingface.co/csebuetnlp/mT5_multilingual_XLSum
+3.7B parameters
+
+https://huggingface.co/UNIST-Eunchan/Research-Paper-Summarization-Pegasus-x-ArXiv
+223M parameters
+
+
+Text Generators (summarization + takeaway generation):
+
+https://arxiv.org/abs/2108.03502
+
+https://huggingface.co/MetaIX/GPT4-X-Alpaca-30B-4bit
+
+https://huggingface.co/haining/scientific_abstract_simplification
+https://huggingface.co/google/flan-t5-large
+540B parameters
+

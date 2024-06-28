@@ -1,0 +1,25 @@
+1. Pick appropriate version of GloVe
+https://nlp.stanford.edu/projects/glove/
+
+2. Upload the GloVe and FastText models to Drive
+    -> FastText Done
+
+3. Pick appropriate model for SentenceTransformer
+
+3. Pick appropriate similarity measure for the embeddings
+            -> Cosine similarity (?)
+    - Euclidean distance
+    - Manhattan distance
+    - Jaccard similarity
+    - Pearson correlation
+    - Spearman correlation
+
+4. Optimize the code and preprocess the data (?)
+    - Remove stopwords
+    - Remove punctuation
+    - Lowercase
+    - Lemmatize
+    - Tokenize
+
+5. Compare the results
+
