@@ -83,3 +83,23 @@ Day 7: 2024-06-20 (Thursday)
 + Ran test experiments on four techniques for demonstration
 + Cleaned up notebook
 + Did some knowledge gathering on the topic
+
+
+Week 2:
+    + Extensively optimized hyperparameters for Pegasus and BART
+    + Compared the performance of Pegasus and BART
+    Implemented BART for preliminary analysis
+
+    + Generated SDG summaries using GPT-4o
+    + Generated SDG summaries using Sonnet-3.5
+    + Generated Abstract summaries using BART
+    - Colab failed to generate summaries
+    + Generated summaries using Eniac
+    
+    + Generated Similarity scores using use
+    + Generated Similarity scores using sentence transformers
+    + Generated Similarity scores using fasttext
+    + Generated Similarity scores using glove
+    + Generated Similarity scores using elmo
+
+    + Implemented some code to find top 3 matching SDGs
